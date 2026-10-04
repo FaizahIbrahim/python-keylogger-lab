@@ -33,6 +33,10 @@ This project is created for educational purposes in a controlled environment to 
 - Learned how to read stored data from a file
 - Understood how file handling can be used to store captured keyboard events
 
+- Practiced writing and appending text to files
+- Learned to use `with open()` for automatic file closing
+- Improved understanding of Python resource management
+
 ## References
 
 This project was developed while learning Python-based input monitoring concepts from publicly available educational resources and was expanded with my own documentation and security analysis.
