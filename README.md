@@ -25,7 +25,9 @@ This project is created for educational purposes in a controlled environment to 
 
 🚧 In progress
 
-I am currently following a beginner tutorial and documenting my learning process as I build the project.
+## References
+
+This project was developed while learning Python-based input monitoring concepts from publicly available educational resources and was expanded with my own documentation and security analysis.
 
 ## Ethical Use
 
