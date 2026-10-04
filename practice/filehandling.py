@@ -9,3 +9,9 @@ file.close()
 # r = read
 # w = write
 # a = append
+
+# Using the 'with' keyword automatically closes the file
+# and helps manage system resources safely.
+
+with open("log.txt", "a") as file:
+    file.write("Hello World!")
