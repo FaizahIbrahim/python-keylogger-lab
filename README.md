@@ -25,6 +25,14 @@ This project is created for educational purposes in a controlled environment to 
 
 🚧 In progress
 
+## Progress
+
+### File Handling
+- Practiced creating and opening files in Python
+- Learned how to write data into a text file
+- Learned how to read stored data from a file
+- Understood how file handling can be used to store captured keyboard events
+
 ## References
 
 This project was developed while learning Python-based input monitoring concepts from publicly available educational resources and was expanded with my own documentation and security analysis.
