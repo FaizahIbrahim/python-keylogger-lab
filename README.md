@@ -43,6 +43,13 @@ This project is created for educational purposes in a controlled environment to 
 - Practiced generating keyboard input programmatically
 - Learned the difference between controlling and listening for input events
 
+### Input Control with pynput
+- Used `pynput` to interact with keyboard and mouse input
+- Practiced programmatically moving the mouse
+- Practiced generating keyboard input
+- Learned the difference between input controllers and input listeners
+- Tested keyboard event logging in a controlled local environment
+
 ## References
 
 This project was developed while learning Python-based input monitoring concepts from publicly available educational resources and was expanded with my own documentation and security analysis.
