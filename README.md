@@ -50,6 +50,12 @@ This project is created for educational purposes in a controlled environment to 
 - Learned the difference between input controllers and input listeners
 - Tested keyboard event logging in a controlled local environment
 
+### Mouse Listener
+- Used `pynput.mouse.Listener` to monitor mouse movement
+- Captured real-time cursor coordinates
+- Learned how callback functions are triggered by mouse events
+- Practiced using `listener.join()` to keep the listener running
+
 ## References
 
 This project was developed while learning Python-based input monitoring concepts from publicly available educational resources and was expanded with my own documentation and security analysis.
