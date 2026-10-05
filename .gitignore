@@ -213,6 +213,10 @@ tempCodeRunnerFile.py
 
 # Marimo
 marimo/_static/
+
+# Generated keystroke logs
+log.txt
+*.log
 marimo/_lsp/
 __marimo__/
 
