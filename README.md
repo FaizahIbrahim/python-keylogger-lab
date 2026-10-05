@@ -81,8 +81,6 @@ This project helped me understand both how keyboard monitoring works technically
 
 This project was developed while learning Python-based input monitoring concepts from publicly available educational resources and was expanded with my own documentation and security analysis.
 
-Tutorial reference:
-https://www.youtube.com/playlist?list=PLhTjy8cBISEoYoJd-zR8EV0NqDddAjK3m
 
 ## Ethical Use
 
