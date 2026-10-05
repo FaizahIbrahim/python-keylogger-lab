@@ -63,6 +63,16 @@ This project is created for educational purposes in a controlled environment to 
 - Observed how special keys such as Space, Backspace, Ctrl, and Enter are represented
 - Practiced event-driven input handling in Python
 
+### Keyboard Event Handling
+- Implemented keyboard event listening using `pynput`
+- Converted normal key events into readable characters
+- Converted Space into whitespace and Enter into a new line
+- Handled left and right Shift events
+- Stored keyboard events locally in a text file
+- Created a reference document for common `pynput` keyboard keys
+
+See: [Keyboard Key Reference](docs/keycodes.md)
+
 ## References
 
 This project was developed while learning Python-based input monitoring concepts from publicly available educational resources and was expanded with my own documentation and security analysis.
