@@ -1,139 +1,58 @@
-alt = <Key.f1: 0>
-
-    A generic Alt key. This is a modifier.
-
-alt_gr = <Key.f1: 0>
-
-    The AltGr key. This is a modifier.
-
-alt_l = <Key.f1: 0>
-
-    The left Alt key. This is a modifier.
-
-alt_r = <Key.f1: 0>
-
-    The right Alt key. This is a modifier.
-
-backspace = <Key.f1: 0>
-
-    The Backspace key.
-
-caps_lock = <Key.f1: 0>
-
-    The CapsLock key.
-
-cmd = <Key.f1: 0>
-
-    A generic command button. On PC platforms, this corresponds to the Super key or Windows key, and on Mac it corresponds to the Command key. This may be a modifier.
-
-cmd_l = <Key.f1: 0>
-
-    The left command button. On PC platforms, this corresponds to the Super key or Windows key, and on Mac it corresponds to the Command key. This may be a modifier.
-
-cmd_r = <Key.f1: 0>
-
-    The right command button. On PC platforms, this corresponds to the Super key or Windows key, and on Mac it corresponds to the Command key. This may be a modifier.
-
-ctrl = <Key.f1: 0>
-
-    A generic Ctrl key. This is a modifier.
-
-ctrl_l = <Key.f1: 0>
-
-    The left Ctrl key. This is a modifier.
-
-ctrl_r = <Key.f1: 0>
-
-    The right Ctrl key. This is a modifier.
-
-delete = <Key.f1: 0>
-
-    The Delete key.
-
-down = <Key.f1: 0>
-
-    A down arrow key.
-
-end = <Key.f1: 0>
-
-    The End key.
-
-enter = <Key.f1: 0>
-
-    The Enter or Return key.
-
-esc = <Key.f1: 0>
-
-    The Esc key.
-
-f1 = <Key.f1: 0>
-
-    The function keys. F1 to F20 are defined.
-
-home = <Key.f1: 0>
-
-    The Home key.
-
-insert = <Key.f1: 0>
-
-    The Insert key. This may be undefined for some platforms.
-
-left = <Key.f1: 0>
-
-    A left arrow key.
-
-menu = <Key.f1: 0>
-
-    The Menu key. This may be undefined for some platforms.
-
-num_lock = <Key.f1: 0>
-
-    The NumLock key. This may be undefined for some platforms.
-
-page_down = <Key.f1: 0>
-
-    The PageDown key.
-
-page_up = <Key.f1: 0>
-
-    The PageUp key.
-
-pause = <Key.f1: 0>
-
-    The Pause/Break key. This may be undefined for some platforms.
-
-print_screen = <Key.f1: 0>
-
-    The PrintScreen key. This may be undefined for some platforms.
-
-right = <Key.f1: 0>
-
-    A right arrow key.
-
-scroll_lock = <Key.f1: 0>
-
-    The ScrollLock key. This may be undefined for some platforms.
-
-shift = <Key.f1: 0>
-
-    A generic Shift key. This is a modifier.
-
-shift_l = <Key.f1: 0>
-
-    The left Shift key. This is a modifier.
-
-shift_r = <Key.f1: 0>
-
-    The right Shift key. This is a modifier.
-
-space = <Key.f1: 0>
-
-    The Space key.
-
-tab = <Key.f1: 0>
-
-    The Tab key.
-
-up = <Key.f1: 0>
-
-    An up arrow key.
+# pynput Keyboard Key Reference
+
+This document contains notes on special keyboard keys recognised by
+`pynput.keyboard.Key`.
+
+## Modifier Keys
+
+| Key | Description |
+|---|---|
+| `Key.alt` | Generic Alt key |
+| `Key.alt_l` | Left Alt key |
+| `Key.alt_r` | Right Alt key |
+| `Key.ctrl` | Generic Ctrl key |
+| `Key.ctrl_l` | Left Ctrl key |
+| `Key.ctrl_r` | Right Ctrl key |
+| `Key.shift` | Generic Shift key |
+| `Key.shift_l` | Left Shift key |
+| `Key.shift_r` | Right Shift key |
+| `Key.cmd` | Windows/Super key on Windows or Command key on macOS |
+
+## Editing and Navigation Keys
+
+| Key | Description |
+|---|---|
+| `Key.backspace` | Backspace |
+| `Key.delete` | Delete |
+| `Key.enter` | Enter / Return |
+| `Key.space` | Space |
+| `Key.tab` | Tab |
+| `Key.home` | Home |
+| `Key.end` | End |
+| `Key.page_up` | Page Up |
+| `Key.page_down` | Page Down |
+| `Key.left` | Left arrow |
+| `Key.right` | Right arrow |
+| `Key.up` | Up arrow |
+| `Key.down` | Down arrow |
+| `Key.esc` | Escape |
+
+## Other Keys
+
+- `Key.caps_lock`
+- `Key.num_lock`
+- `Key.scroll_lock`
+- `Key.insert`
+- `Key.print_screen`
+- `Key.pause`
+- `Key.menu`
+- Function keys such as `Key.f1`, `Key.f2`, etc.
+
+## Keys Used in This Project
+
+The current keyboard listener specifically handles:
+
+- `Key.space` → converted into a normal space
+- `Key.enter` → converted into a new line
+- `Key.shift_l` → ignored/replaced
+- `Key.shift_r` → ignored/replaced
