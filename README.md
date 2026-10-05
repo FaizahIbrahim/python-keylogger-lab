@@ -56,6 +56,13 @@ This project is created for educational purposes in a controlled environment to 
 - Learned how callback functions are triggered by mouse events
 - Practiced using `listener.join()` to keep the listener running
 
+### Keyboard Listener
+- Used `pynput.keyboard.Listener` to capture keyboard events
+- Converted key events into strings before storing them
+- Appended captured input to a local text file
+- Observed how special keys such as Space, Backspace, Ctrl, and Enter are represented
+- Practiced event-driven input handling in Python
+
 ## References
 
 This project was developed while learning Python-based input monitoring concepts from publicly available educational resources and was expanded with my own documentation and security analysis.
