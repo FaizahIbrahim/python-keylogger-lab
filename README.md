@@ -37,6 +37,12 @@ This project is created for educational purposes in a controlled environment to 
 - Learned to use `with open()` for automatic file closing
 - Improved understanding of Python resource management
 
+### pynput Basics
+- Installed and imported the `pynput` library
+- Learned how Python can control mouse position
+- Practiced generating keyboard input programmatically
+- Learned the difference between controlling and listening for input events
+
 ## References
 
 This project was developed while learning Python-based input monitoring concepts from publicly available educational resources and was expanded with my own documentation and security analysis.
